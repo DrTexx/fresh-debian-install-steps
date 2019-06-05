@@ -142,3 +142,7 @@
     1. Reboot the system
 
 1. Finish fixing the system after maxing out the storage space in `/` (which is a seperate partition from `/home` for my install) by shrinking my windows partition and expanding my linux system partition
+
+1. Install Kodi via Flatpak (`flatpak install flathub tv.kodi.Kodi`)
+
+1. Install KiCad via Flatpak (`flatpak install flathub org.kicad_pcb.KiCad`)
