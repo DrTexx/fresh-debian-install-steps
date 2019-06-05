@@ -87,7 +87,7 @@
 
 1. Install Snap (`sudo apt install snapd`)
 
-1. Install Atom (`sudo snap install atom --classic`)
+1. Install Atom via Snap (`sudo snap install atom --classic`)
 
 1. Reboot
 
@@ -99,9 +99,9 @@
 
 1. Install Spotify (`sudo snap install Spotify`)
 
-1. Edit /etc/apt/sources.list to include contrib and non-free
+1. Edit /etc/apt/sources.list to include contrib and non-free (`sudo nano /etc/apt/sources.list`)
 
-1. `sudo apt update`
+1. Run apt update (`sudo apt update`)
 
 1. Install nvidia-detect from non-free (`sudo apt install nvidia-detect`)
 
@@ -111,7 +111,7 @@
 
 1. Install Stow (`sudo apt install stow`) **REVISIT**
 
-1. Install libsecret for storing github credentials securely ([more info](https://askubuntu.com/questions/773455/what-is-the-correct-way-to-use-git-with-gnome-keyring-and-https-repos))
+1. Libsecret installation and configuration (for storing github credentials securely) ([original Stack Overflow post](https://askubuntu.com/questions/773455/what-is-the-correct-way-to-use-git-with-gnome-keyring-and-https-repos))
 
     1. `sudo apt install libsecret-1-0 libsecret-1-dev`
 
@@ -119,4 +119,4 @@
 
     1. `sudo make`
 
-    1. `git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret`
+    1. `git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret` (configure libsecret as the git credential helper)
