@@ -149,4 +149,6 @@
 
 1. Installed Teamviewer from a local deb package
 
-TODO: install redshift and fish terminal
+1. Install redshift (`sudo apt install redshift`)
+
+TODO: install fish terminal
