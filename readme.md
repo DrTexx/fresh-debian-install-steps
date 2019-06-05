@@ -169,4 +169,6 @@
 
     **STILL NOT WORKING YET**
 
+1. Install VLC (`sudo apt install vlc`) (flatpak version cannot install because a newer version of flatpak is required)
+
 TODO: install fish terminal
