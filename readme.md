@@ -165,4 +165,6 @@
 
     1. if you get the error _"Fatal Error: Failed to load steamui.so"_, try restarting and trying again.
 
+    **STILL NOT WORKING YET**
+
 TODO: install fish terminal
