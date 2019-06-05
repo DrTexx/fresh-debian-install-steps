@@ -97,33 +97,26 @@
 
 1. Configure Git
 
-1. Install Spotify
+1. Install Spotify (`sudo snap install Spotify`)
 
-  `sudo snap install Spotify`
-
-1. Edit /etc/apt/sources.list to include contrib and nonfree
+1. Edit /etc/apt/sources.list to include contrib and non-free
 
 1. `sudo apt update`
 
-1. `sudo apt install nvidia-detect`
+1. Install nvidia-detect from non-free (`sudo apt install nvidia-detect`)
 
-1. if card is compatible, `sudo apt install nvidia-driver`
+1. If card is compatible, `sudo apt install nvidia-driver`
 
 1. Reboot the computer
 
-1. Install Stow
-
-    `sudo apt install stow`
+1. Install Stow (`sudo apt install stow`) **REVISIT**
 
 1. Install libsecret for storing github credentials securely ([more info](https://askubuntu.com/questions/773455/what-is-the-correct-way-to-use-git-with-gnome-keyring-and-https-repos))
 
-    `sudo apt install libsecret-1-0 libsecret-1-dev`
+    1. `sudo apt install libsecret-1-0 libsecret-1-dev`
 
-1. `cd /usr/share/doc/git/contrib/credential/libsecret/`
-1. Build libsecret
+    1. `cd /usr/share/doc/git/contrib/credential/libsecret/`
 
-    `sudo make`
+    1. `sudo make`
 
-1. Point git to this file in the config
-
-    `git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret`
+    1. `git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret`
