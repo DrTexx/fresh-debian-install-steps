@@ -120,3 +120,5 @@
     1. `sudo make`
 
     1. `git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret` (configure libsecret as the git credential helper)
+
+1. Install Gparted (`sudo apt install gparted`)
