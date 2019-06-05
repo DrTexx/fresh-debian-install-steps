@@ -67,9 +67,9 @@
         | Terminal | Custom command                           | fish  |
 
 1. Download user themes
-    1. Download [Sweet-mars](https://www.gnome-look.org/p/1253385/) (download "sweet-mars" variant) [[Source](https://github.com/EliverLara/Sweet)]
-    1. Download [Ulimate Maia Orange](https://www.gnome-look.org/p/1253385/) (download "orange" variant) [[Source](https://github.com/bolimage/Ultimate-Maia)]
-    1. Download [Moka Icon Theme](https://snwh.org/moka/download) [[Source](https://github.com/snwh/moka-icon-theme)]
+    - Download [Sweet-mars](https://www.gnome-look.org/p/1253385/) (download "sweet-mars" variant) [[Source](https://github.com/EliverLara/Sweet)]
+    - Download [Ulimate Maia Orange](https://www.gnome-look.org/p/1253385/) (download "orange" variant) [[Source](https://github.com/bolimage/Ultimate-Maia)]
+    - Download [Moka Icon Theme](https://snwh.org/moka/download) [[Source](https://github.com/snwh/moka-icon-theme)]
 
 1. Install user themes
     1. Create the ~/.themes directory if it doesn't already exist.
@@ -85,13 +85,9 @@
         1. Move moka-icon-theme*.deb to a folder for keeping track of installed .debs
         1. `sudo apt install moka-icon-theme`
 
-1. Install Snap
+1. Install Snap `sudo apt install snapd`
 
-  `sudo apt install snapd`
-
-1. Install Atom
-
-  `sudo snap install atom --classic`
+1. Install Atom `sudo snap install atom --classic`
 
 1. Reboot
 
