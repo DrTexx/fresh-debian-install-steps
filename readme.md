@@ -148,3 +148,5 @@
 1. Install KiCad via Flatpak (`flatpak install --from https://flathub.org/repo/appstream/org.kicad_pcb.KiCad.flatpakref`)
 
 1. Installed Teamviewer from a local deb package
+
+TODO: install redshift and fish terminal
