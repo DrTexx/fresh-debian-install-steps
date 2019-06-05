@@ -3,11 +3,11 @@
     - Enable dark theme
     - Change time format to 12h
     - Add custom keyboard shortcuts
-
-    | NAME     | COMMAND        | SHORTCUT       |
-    | ---      | ---            | ---            |
-    | Nautilus | nautilus -w    | Super + E      |
-    | Terminal | gnome-terminal | Ctrl + Alt + T |
+    
+        | NAME     | COMMAND        | SHORTCUT       |
+        | ---      | ---            | ---            |
+        | Nautilus | nautilus -w    | Super + E      |
+        | Terminal | gnome-terminal | Ctrl + Alt + T |
 
 1. Install sudo
 ```
