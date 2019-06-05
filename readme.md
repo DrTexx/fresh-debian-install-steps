@@ -9,21 +9,23 @@
         | Nautilus | nautilus -w    | Super + E      |
         | Terminal | gnome-terminal | Ctrl + Alt + T |
 
-1. Install sudo
+1. Sudo installation and configuration
 
-    ```
-    $ su -
-    $ apt-get install sudo -y
-    $ exit
-    ```
+    1. Install sudo
 
-1. Add regular user to sudoers
+        ```
+        $ su -
+        $ apt-get install sudo -y
+        $ exit
+        ```
 
-    ```
-    su -
-    adduser denver sudo
-    exit
-    ```
+    1. Add regular user to sudoers
+
+        ```
+        su -
+        adduser denver sudo
+        exit
+        ```
 
 1. Restart computer
 
