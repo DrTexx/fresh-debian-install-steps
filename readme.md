@@ -67,22 +67,23 @@
         | Terminal | Custom command                           | fish  |
 
 1. Download user themes
-  1. Download [Sweet-mars](https://www.gnome-look.org/p/1253385/) (download "sweet-mars" variant) [[Source](https://github.com/EliverLara/Sweet)]
-  1. Download [Ulimate Maia Orange](https://www.gnome-look.org/p/1253385/) (download "orange" variant) [[Source](https://github.com/bolimage/Ultimate-Maia)]
-  1. Download [Moka Icon Theme](https://snwh.org/moka/download) [[Source](https://github.com/snwh/moka-icon-theme)]
+    1. Download [Sweet-mars](https://www.gnome-look.org/p/1253385/) (download "sweet-mars" variant) [[Source](https://github.com/EliverLara/Sweet)]
+    1. Download [Ulimate Maia Orange](https://www.gnome-look.org/p/1253385/) (download "orange" variant) [[Source](https://github.com/bolimage/Ultimate-Maia)]
+    1. Download [Moka Icon Theme](https://snwh.org/moka/download) [[Source](https://github.com/snwh/moka-icon-theme)]
+
 1. Install user themes
-  1. Create the ~/.themes directory if it doesn't already exist.
-  1. Install Sweet-mars
-    1. Unzip "Sweet-mars.tar.xz"
-    1. Copy the "Sweet-mars" directory to "~/.themes"
-    1. `cp -r Sweet-mars ~/.themes/`      
-  1. Install Ultimate-Maia-Orange
-    1. Unzip "Ultimate-Maia-Orange.tar.xz"
-    1. Copy the "Ultimate-Maia-Orange" directory to "~/.themes"
-    1. `cp -r Ultimate-Maia-Orange ~/.themes/`
-  1. Install Moka Icon Theme
-    1. Move moka-icon-theme*.deb to a folder for keeping track of installed .debs
-    1. `sudo apt install moka-icon-theme`
+    1. Create the ~/.themes directory if it doesn't already exist.
+    1. Install Sweet-mars
+        1. Unzip "Sweet-mars.tar.xz"
+        1. Copy the "Sweet-mars" directory to "~/.themes"
+        1. `cp -r Sweet-mars ~/.themes/`      
+    1. Install Ultimate-Maia-Orange
+        1. Unzip "Ultimate-Maia-Orange.tar.xz"
+        1. Copy the "Ultimate-Maia-Orange" directory to "~/.themes"
+        1. `cp -r Ultimate-Maia-Orange ~/.themes/`
+    1. Install Moka Icon Theme
+        1. Move moka-icon-theme*.deb to a folder for keeping track of installed .debs
+        1. `sudo apt install moka-icon-theme`
 
 1. Install Snap
 
@@ -93,21 +94,29 @@
   `sudo snap install atom --classic`
 
 1. Reboot
+
 1. Launch Atom to continue writing/editing this file
+
 1. Install Git
 
     `sudo apt install git`
 
 1. Configure Git
+
 1. Install Spotify
 
   `sudo snap install Spotify`
 
 1. Edit /etc/apt/sources.list to include contrib and nonfree
+
 1. `sudo apt update`
+
 1. `sudo apt install nvidia-detect`
+
 1. if card is compatible, `sudo apt install nvidia-driver`
+
 1. Reboot the computer
+
 1. Install Stow
 
     `sudo apt install stow`
