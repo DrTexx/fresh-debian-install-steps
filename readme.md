@@ -35,22 +35,25 @@
     ```
 
 1. Firefox related
-  1. Change to reopen windows and tabs from last time
-  1. Install Firefox Extensions
-    - Gnome Intergration
-    - LastPass
+    1. Change to reopen windows and tabs from last time
+    1. Install Firefox Extensions
+        - Gnome Intergration
+        - LastPass
+
 1. Install Gnome extensions
-  - AlternateTab (by fmuellner)
-  - Drop Down Terminal (by zzrough)
-  - Force Quit (by megh)
-  - MConnect (by andyholmes) ([DOWNLOAD HERE](https://github.com/andyholmes/gnome-shell-extension-mconnect))
-  - Native Window Placement (by fmuellner)
-  - Places Status Indicator (by fmuellner)
-  - Removable Drive Menu (by fmuellner)
-  - ShellTile (by emasab)
-  - Suspend Button (by laser_b)
-  - User Themes (by fmuellner)
+    - AlternateTab (by fmuellner)
+    - Drop Down Terminal (by zzrough)
+    - Force Quit (by megh)
+    - MConnect (by andyholmes) ([DOWNLOAD HERE](https://github.com/andyholmes/gnome-shell-extension-mconnect))
+    - Native Window Placement (by fmuellner)
+    - Places Status Indicator (by fmuellner)
+    - Removable Drive Menu (by fmuellner)
+    - ShellTile (by emasab)
+    - Suspend Button (by laser_b)
+    - User Themes (by fmuellner)
+
 1. Restart computer
+
 1. Configure Gnome extensions
 
     Drop Down Terminal
