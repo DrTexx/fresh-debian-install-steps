@@ -130,3 +130,11 @@
 1. Install htop via Snap (`sudo snap install htop`)
 
 1. Install youtube-dl via Snap (`sudo snap install youtube-dl`)
+
+1. Flatpak installation and configuration
+
+    1. Install flatpak (`sudo apt install flatpak`)
+
+    1. Install software flatpak plugin (`sudo apt install gnome-software-plugin-flatpak`)
+
+    1. Add the Flathub repo (`flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`)
