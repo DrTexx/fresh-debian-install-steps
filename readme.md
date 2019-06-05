@@ -1,2 +1,116 @@
-What's up
-here's a test from Atom
+# Fresh Debian 9 Install Steps
+1. Gnome Settings
+  - Enable dark theme
+  - Change time format to 12h
+  - Add custom keyboard shortcuts
+
+| NAME     | COMMAND        | SHORTCUT       |
+| ---      | ---            | ---            |
+| Nautilus | nautilus -w    | Super + E      |
+| Terminal | gnome-terminal | Ctrl + Alt + T |
+
+1. Install sudo
+```
+$ su -
+$ apt-get install sudo -y
+$ exit
+```
+1. Add regular user to sudoers
+```
+su -
+adduser denver sudo
+exit
+```
+1. Restart computer
+1. Update and upgrade packages
+```
+sudo apt update
+sudo apt upgrade
+```
+1. Firefox related
+  1. Change to reopen windows and tabs from last time
+  1. Install Firefox Extensions
+    - Gnome Intergration
+    - LastPass
+1. Install Gnome extensions
+  - AlternateTab (by fmuellner)
+  - Drop Down Terminal (by zzrough)
+  - Force Quit (by megh)
+  - MConnect (by andyholmes) ([DOWNLOAD HERE](https://github.com/andyholmes/gnome-shell-extension-mconnect))
+  - Native Window Placement (by fmuellner)
+  - Places Status Indicator (by fmuellner)
+  - Removable Drive Menu (by fmuellner)
+  - ShellTile (by emasab)
+  - Suspend Button (by laser_b)
+  - User Themes (by fmuellner)
+1. Restart computer
+1. Configure Gnome extensions
+
+Drop Down Terminal
+
+| TAB      | SETTING                                  | VALUE |
+| ---      | ---                                      | ---   |
+| General  | Transparency                             | 60    |
+| General  | Scrollbar                                | True  |
+| General  | Height                                   | 40%   |
+| Terminal | Run a custom command instead of my shell | True  |
+| Terminal | Custom command                           | fish  |
+
+1. Download user themes
+  1. Download [Sweet-mars](https://www.gnome-look.org/p/1253385/) (download "sweet-mars" variant) [[Source](https://github.com/EliverLara/Sweet)]
+  1. Download [Ulimate Maia Orange](https://www.gnome-look.org/p/1253385/) (download "orange" variant) [[Source](https://github.com/bolimage/Ultimate-Maia)]
+  1. Download [Moka Icon Theme](https://snwh.org/moka/download) [[Source](https://github.com/snwh/moka-icon-theme)]
+1. Install user themes
+  1. Create the ~/.themes directory if it doesn't already exist.
+  1. Install Sweet-mars
+    1. Unzip "Sweet-mars.tar.xz"
+    1. Copy the "Sweet-mars" directory to "~/.themes"
+    1. `cp -r Sweet-mars ~/.themes/`      
+  1. Install Ultimate-Maia-Orange
+    1. Unzip "Ultimate-Maia-Orange.tar.xz"
+    1. Copy the "Ultimate-Maia-Orange" directory to "~/.themes"
+    1. `cp -r Ultimate-Maia-Orange ~/.themes/`
+  1. Install Moka Icon Theme
+    1. Move moka-icon-theme*.deb to a folder for keeping track of installed .debs
+    1. `sudo apt install moka-icon-theme`
+
+1. Install Snap
+
+  `sudo apt install snapd`
+
+1. Install Atom
+
+  `sudo snap install atom --classic`
+
+1. Reboot
+1. Launch Atom to continue writing/editing this file
+1. Install Git
+
+    `sudo apt install git`
+
+1. Configure Git
+1. Install Spotify
+
+  `sudo snap install Spotify`
+
+1. Edit /etc/apt/sources.list to include contrib and nonfree
+1. `sudo apt update`
+1. `sudo apt install nvidia-detect`
+1. if card is compatible, `sudo apt install nvidia-driver`
+1. Reboot the computer
+1. Install Stow
+
+    `sudo apt install stow`
+
+1. Install libsecret for storing github credentials securely ([more info](https://askubuntu.com/questions/773455/what-is-the-correct-way-to-use-git-with-gnome-keyring-and-https-repos))
+
+    `sudo apt install libsecret-1-0 libsecret-1-dev`
+
+1. `cd /usr/share/doc/git/contrib/credential/libsecret/`
+1. Build libsecret
+
+    `sudo make`
+
+1. Point git to this file in the config
+
+    `git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret`
