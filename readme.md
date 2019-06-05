@@ -37,7 +37,7 @@
     ```
 
 1. Firefox related
-    - Change to reopen windows and tabs from last time
+    - Change preferences to reopen windows and tabs from last session
     - Install Firefox Extensions
         - Gnome Intergration
         - LastPass
@@ -74,15 +74,13 @@
     - Download [Moka Icon Theme](https://snwh.org/moka/download) [[Source](https://github.com/snwh/moka-icon-theme)]
 
 1. Install user themes
-    1. Create the ~/.themes directory if it doesn't already exist.
+    1. Create the ~/.themes directory if it doesn't already exist. (`mkdir ~/.themes`)
     1. Install Sweet-mars
         1. Unzip "Sweet-mars.tar.xz"
-        1. Copy the "Sweet-mars" directory to "~/.themes"
-        1. `cp -r Sweet-mars ~/.themes/`      
+        1. Copy the "Sweet-mars" directory to "~/.themes" (`cp -r Sweet-mars ~/.themes/`)
     1. Install Ultimate-Maia-Orange
         1. Unzip "Ultimate-Maia-Orange.tar.xz"
-        1. Copy the "Ultimate-Maia-Orange" directory to "~/.themes"
-        1. `cp -r Ultimate-Maia-Orange ~/.themes/`
+        1. Copy the "Ultimate-Maia-Orange" directory to "~/.themes" (`cp -r Ultimate-Maia-Orange ~/.themes/`)
     1. Install Moka Icon Theme
         1. Move moka-icon-theme*.deb to a folder for keeping track of installed .debs
         1. `sudo apt install moka-icon-theme`
