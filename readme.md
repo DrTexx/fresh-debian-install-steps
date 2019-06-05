@@ -161,6 +161,8 @@
 
     1. run this: `sudo dpkg --add-architecture i386`
 
+    1. Install steam (`sudo apt install steam:i386`) (there is a semi-official flatpak version, however Debian's latest stable version of flatpak doesn't support installing it)
+
     1. If you get the error _"You are missing the following 32-bit libraries, and Steam may not run: libc.so.6"_, try this: `sudo apt install libc6-i386`
 
     1. if you get the error _"Fatal Error: Failed to load steamui.so"_, try restarting and trying again.
