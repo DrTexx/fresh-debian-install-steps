@@ -140,3 +140,5 @@
     1. Add the Flathub repo (`flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo`)
 
     1. Reboot the system
+
+1. Finish fixing the system after maxing out the storage space in `/` (which is a seperate partition from `/home` for my install) by shrinking my windows partition and expanding my linux system partition
