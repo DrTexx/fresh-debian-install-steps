@@ -28,10 +28,12 @@
 1. Restart computer
 
 1. Update and upgrade packages
-```
-sudo apt update
-sudo apt upgrade
-```
+
+    ```
+    sudo apt update
+    sudo apt upgrade
+    ```
+
 1. Firefox related
   1. Change to reopen windows and tabs from last time
   1. Install Firefox Extensions
@@ -51,15 +53,15 @@ sudo apt upgrade
 1. Restart computer
 1. Configure Gnome extensions
 
-Drop Down Terminal
+    Drop Down Terminal
 
-| TAB      | SETTING                                  | VALUE |
-| ---      | ---                                      | ---   |
-| General  | Transparency                             | 60    |
-| General  | Scrollbar                                | True  |
-| General  | Height                                   | 40%   |
-| Terminal | Run a custom command instead of my shell | True  |
-| Terminal | Custom command                           | fish  |
+    | TAB      | SETTING                                  | VALUE |
+    | ---      | ---                                      | ---   |
+    | General  | Transparency                             | 60    |
+    | General  | Scrollbar                                | True  |
+    | General  | Height                                   | 40%   |
+    | Terminal | Run a custom command instead of my shell | True  |
+    | Terminal | Custom command                           | fish  |
 
 1. Download user themes
   1. Download [Sweet-mars](https://www.gnome-look.org/p/1253385/) (download "sweet-mars" variant) [[Source](https://github.com/EliverLara/Sweet)]
