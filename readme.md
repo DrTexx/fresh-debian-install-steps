@@ -151,4 +151,6 @@
 
 1. Install redshift-gtk (`sudo apt install redshift-gtk`) (ensure location services are enabled under gnome's privacy settings)
 
+1. Install discord via Snap (`sudo snap install discord`)
+
 TODO: install fish terminal
