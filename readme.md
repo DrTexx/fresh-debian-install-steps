@@ -56,7 +56,7 @@
 
 1. Configure Gnome extensions
 
-    Drop Down Terminal
+    - Drop Down Terminal
 
         | TAB      | SETTING                                  | VALUE |
         | ---      | ---                                      | ---   |
