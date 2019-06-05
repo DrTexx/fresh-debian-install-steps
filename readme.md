@@ -157,6 +157,8 @@
 
 1. Install Spotify via Flatpak (`flatpak install flathub com.spotify.Client`)
 
-1. Install Steam via .deb (archive accordingly)
+1. Install Steam via .deb (archive .deb accordingly)
+
+    1. If you get the error _"You are missing the following 32-bit libraries, and Steam may not run: libc.so.6"_, try this: `sudo apt install libc6-i386`
 
 TODO: install fish terminal
