@@ -126,3 +126,7 @@
 1. Install apt-listchanges (`sudo apt install apt-listchanges`)
 
 1. Install apt-listbugs (`sudo apt install apt-listbugs`)
+
+1. Install htop via Snap (`sudo snap install htop`)
+
+1. Install youtube-dl via Snap (`sudo snap install youtube-dl`)
