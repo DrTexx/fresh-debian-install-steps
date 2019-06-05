@@ -85,17 +85,15 @@
         1. Move moka-icon-theme*.deb to a folder for keeping track of installed .debs
         1. `sudo apt install moka-icon-theme`
 
-1. Install Snap `sudo apt install snapd`
+1. Install Snap (`sudo apt install snapd`)
 
-1. Install Atom `sudo snap install atom --classic`
+1. Install Atom (`sudo snap install atom --classic`)
 
 1. Reboot
 
 1. Launch Atom to continue writing/editing this file
 
-1. Install Git
-
-    `sudo apt install git`
+1. Install Git (`sudo apt install git`)
 
 1. Configure Git
 
