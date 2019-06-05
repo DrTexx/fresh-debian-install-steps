@@ -153,8 +153,8 @@
 
 1. Install discord via Flatpak (`flatpak install flathub com.discordapp.Discord`) (flatpak is offical from discord, snap isn't)
 
-TODO: install fish terminal
-
 1. Uninstall Spotify via Snap
 
 1. Install Spotify via Flatpak (`flatpak install flathub com.spotify.Client`)
+
+TODO: install fish terminal
