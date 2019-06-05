@@ -149,7 +149,7 @@
 
 1. Installed Teamviewer from a local deb package
 
-1. Install redshift-gtk (`sudo apt install redshift-gtk`) (ensure location services are enabled under gnome's privacy settings)
+1. Install redshift-gtk (`sudo apt install redshift-gtk`) (ensure location services are enabled under gnome's privacy settings) (when running, make sure you check "autostart" when right-clicking the redshift-gtk icon in the gnome tray)
 
 1. Install discord via Snap (`sudo snap install discord`)
 
