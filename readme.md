@@ -3,25 +3,30 @@
     - Enable dark theme
     - Change time format to 12h
     - Add custom keyboard shortcuts
-    
+
         | NAME     | COMMAND        | SHORTCUT       |
         | ---      | ---            | ---            |
         | Nautilus | nautilus -w    | Super + E      |
         | Terminal | gnome-terminal | Ctrl + Alt + T |
 
 1. Install sudo
-```
-$ su -
-$ apt-get install sudo -y
-$ exit
-```
+
+    ```
+    $ su -
+    $ apt-get install sudo -y
+    $ exit
+    ```
+
 1. Add regular user to sudoers
-```
-su -
-adduser denver sudo
-exit
-```
+
+    ```
+    su -
+    adduser denver sudo
+    exit
+    ```
+
 1. Restart computer
+
 1. Update and upgrade packages
 ```
 sudo apt update
