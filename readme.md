@@ -97,7 +97,7 @@
 
 1. Configure Git
 
-1. Install Spotify (`sudo snap install Spotify`)
+1. Install Spotify (`sudo snap install Spotify`) **CHANGED TO FLATPAK LATER**
 
 1. Edit /etc/apt/sources.list to include contrib and non-free (`sudo nano /etc/apt/sources.list`)
 
@@ -151,6 +151,10 @@
 
 1. Install redshift-gtk (`sudo apt install redshift-gtk`) (ensure location services are enabled under gnome's privacy settings) (when running, make sure you check "autostart" when right-clicking the redshift-gtk icon in the gnome tray)
 
-1. Install discord via Snap (`sudo snap install discord`)
+1. Install discord via Flatpak (`flatpak install flathub com.discordapp.Discord`) (flatpak is offical from discord, snap isn't)
 
 TODO: install fish terminal
+
+1. Uninstall Spotify via Snap
+
+1. Install Spotify via Flatpak (`flatpak install flathub com.spotify.Client`)
