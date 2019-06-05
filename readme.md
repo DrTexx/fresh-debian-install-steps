@@ -145,4 +145,4 @@
 
 1. Install Kodi via Flatpak (`flatpak install flathub tv.kodi.Kodi`)
 
-1. Install KiCad via Flatpak (`flatpak install flathub org.kicad_pcb.KiCad`)
+1. Install KiCad via Flatpak (`flatpak install --from https://flathub.org/repo/appstream/org.kicad_pcb.KiCad.flatpakref`)
