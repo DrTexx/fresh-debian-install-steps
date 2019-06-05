@@ -122,3 +122,7 @@
     1. `git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret` (configure libsecret as the git credential helper)
 
 1. Install Gparted (`sudo apt install gparted`)
+
+1. Install apt-listchanges (`sudo apt install apt-listchanges`)
+
+1. Install apt-listbugs (`sudo apt install apt-listbugs`)
