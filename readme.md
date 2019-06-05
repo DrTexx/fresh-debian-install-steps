@@ -157,4 +157,6 @@
 
 1. Install Spotify via Flatpak (`flatpak install flathub com.spotify.Client`)
 
+1. Install Steam via .deb (archive accordingly)
+
 TODO: install fish terminal
