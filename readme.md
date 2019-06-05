@@ -149,6 +149,6 @@
 
 1. Installed Teamviewer from a local deb package
 
-1. Install redshift (`sudo apt install redshift`)
+1. Install redshift-gtk (`sudo apt install redshift-gtk`) (ensure location services are enabled under gnome's privacy settings)
 
 TODO: install fish terminal
