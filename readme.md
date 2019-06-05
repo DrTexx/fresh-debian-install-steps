@@ -1,8 +1,8 @@
 # Fresh Debian 9 Install Steps
 1. Gnome Settings
-  - Enable dark theme
-  - Change time format to 12h
-  - Add custom keyboard shortcuts
+    - Enable dark theme
+    - Change time format to 12h
+    - Add custom keyboard shortcuts
 
 | NAME     | COMMAND        | SHORTCUT       |
 | ---      | ---            | ---            |
