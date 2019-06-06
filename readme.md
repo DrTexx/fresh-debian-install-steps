@@ -208,4 +208,6 @@ a
 
         1. Reboot ("Now the sound device (bluetooth headset) should be accessible through pavucontrol and standard audio device manager")
 
+1. Install PCSX2 via Flatpak (`flatpak install flathub net.pcsx2.PCSX2`)
+
 TODO: install fish terminal
