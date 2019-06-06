@@ -174,6 +174,7 @@ a
                 `libgl1-mesa-glx:i386`
                 `libc6:i386`
         - Run `sudo apt install libgl1-mesa-dri:i386 libgl1-mesa-glx:i386 libc6:i386`
+        - `sudo apt-get install firmware-linux-nonfree`
         - Reboot
 
 1. Install VLC (`sudo apt install vlc`) (flatpak version cannot install because a newer version of flatpak is required)
