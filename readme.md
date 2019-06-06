@@ -13,17 +13,17 @@
   1. Install sudo
 
     ```
-    $ su -
-    $ apt-get install sudo -y
-    $ exit
+     $ su -
+     $ apt-get install sudo -y
+     $ exit
     ```
 
   2. Add regular user to sudoers
 
     ```
-    su -
-    adduser denver sudo
-    exit
+     su -
+     adduser denver sudo
+     exit
     ```
 
 3. Restart computer
@@ -31,8 +31,8 @@
 4. Update and upgrade packages
 
   ```
-  sudo apt update
-  sudo apt upgrade
+   sudo apt update
+   sudo apt upgrade
   ```
 
 5. Firefox related
@@ -75,21 +75,18 @@
   1. Create the ~/.themes directory if it doesn't already exist. (`mkdir ~/.themes`)
   2. Install Sweet-mars
 
-  3. Unzip "Sweet-mars.tar.xz"
+    1. Unzip "Sweet-mars.tar.xz"
+    2. Copy the "Sweet-mars" directory to "~/.themes" (`cp -r Sweet-mars ~/.themes/`)
 
-  4. Copy the "Sweet-mars" directory to "~/.themes" (`cp -r Sweet-mars ~/.themes/`)
+  3. Install Ultimate-Maia-Orange
 
-  5. Install Ultimate-Maia-Orange
+    1. Unzip "Ultimate-Maia-Orange.tar.xz"
+    2. Copy the "Ultimate-Maia-Orange" directory to "~/.themes" (`cp -r Ultimate-Maia-Orange ~/.themes/`)
 
-  6. Unzip "Ultimate-Maia-Orange.tar.xz"
+  4. Install Moka Icon Theme
 
-  7. Copy the "Ultimate-Maia-Orange" directory to "~/.themes" (`cp -r Ultimate-Maia-Orange ~/.themes/`)
-
-  8. Install Moka Icon Theme
-
-  9. Move moka-icon-theme*.deb to a folder for keeping track of installed .debs
-
-  10. `sudo apt install moka-icon-theme`
+    1. Move moka-icon-theme*.deb to a folder for keeping track of installed .debs
+    2. `sudo apt install moka-icon-theme`
 
 11. Install Snap (`sudo apt install snapd`)
 
@@ -173,7 +170,7 @@
 
   4. if you get the error _"Fatal Error: Failed to load steamui.so"_, try restarting and trying again.
 
-  **STILL NOT WORKING YET**
+    **STILL NOT WORKING YET**
 
 40. Install VLC (`sudo apt install vlc`) (flatpak version cannot install because a newer version of flatpak is required)
 
@@ -187,19 +184,19 @@
 
   4. Work-around to fix a2dp_sink profile for High Quality Audio
 
-  5. edit `/var/lib/gdm3/.config/pulse/client.conf` (or create it, if it doesn't exist):
+    1. edit `/var/lib/gdm3/.config/pulse/client.conf` (or create it, if it doesn't exist):
 
-  ```
-  autospawn = no
-  daemon-binary = /bin/true
-  ```
+      ```
+       autospawn = no
+       daemon-binary = /bin/true
+      ```
 
-  1. `sudo chown Debian-gdm:Debian-gdm /var/lib/gdm3/.config/pulse/client.conf` (grant access to this file to Debian-gdm user)
+    2. `sudo chown Debian-gdm:Debian-gdm /var/lib/gdm3/.config/pulse/client.conf` (grant access to this file to Debian-gdm user)
 
-  2. `sudo rm /var/lib/gdm3/.config/systemd/user/sockets.target.wants/pulseaudio.socket` (disable pulseaudio startup)
+    3. `sudo rm /var/lib/gdm3/.config/systemd/user/sockets.target.wants/pulseaudio.socket` (disable pulseaudio startup)
 
-  3. add this to `/etc/pulse/default.pa` (In order to auto-connect a2dp for some devices) `load-module module-switch-on-connect`
+    4. add this to `/etc/pulse/default.pa` (In order to auto-connect a2dp for some devices) `load-module module-switch-on-connect`
 
-  4. Reboot ("Now the sound device (bluetooth headset) should be accessible through pavucontrol and standard audio device manager")
+    5. Reboot ("Now the sound device (bluetooth headset) should be accessible through pavucontrol and standard audio device manager")
 
 TODO: install fish terminal
