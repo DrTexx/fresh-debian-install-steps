@@ -171,4 +171,31 @@
 
 1. Install VLC (`sudo apt install vlc`) (flatpak version cannot install because a newer version of flatpak is required)
 
+1. Get bluetooth headphones working properly
+
+    1. Install requirements [specified by Debian](https://wiki.debian.org/BluetoothUser/a2dp): `sudo apt install pulseaudio pulseaudio-module-bluetooth pavucontrol bluez-firmware` (ensure non-free is in your /etc/apt/sources.list)
+
+    1. Restart bluetooth and pulseaudio services
+        `sudo service bluetooth restart`
+        `sudo killall pulseaudio`
+
+    1. Install blueman `sudo apt install blueman`
+
+    1. Work-around to fix a2dp_sink profile for High Quality Audio
+
+        1. edit `/var/lib/gdm3/.config/pulse/client.conf` (or create it, if it doesn't exist):
+            ```
+            autospawn = no
+            daemon-binary = /bin/true
+            ```
+
+        1. `sudo chown Debian-gdm:Debian-gdm /var/lib/gdm3/.config/pulse/client.conf` (grant access to this file to Debian-gdm user)
+
+        1. `sudo rm /var/lib/gdm3/.config/systemd/user/sockets.target.wants/pulseaudio.socket` (disable pulseaudio startup)
+
+        1. add this to `/etc/pulse/default.pa` (In order to auto-connect a2dp for some devices)
+            `load-module module-switch-on-connect`
+
+        1. Reboot ("Now the sound device (bluetooth headset) should be accessible through pavucontrol and standard audio device manager")
+
 TODO: install fish terminal
