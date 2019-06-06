@@ -167,15 +167,17 @@ a
 
     1. If you get the error _"Fatal Error: Failed to load steamui.so"_, try restarting and trying again.
 
-    1. If still recieving errors, try running `steam` from terminal and see if it claims you have any missing libraries.
+        1. If still recieving errors, try running `steam` from terminal and see if it claims you have any missing libraries.
 
-        - For my specific case, I had to install these packages via apt:
-                `libgl1-mesa-dri:i386`
-                `libgl1-mesa-glx:i386`
-                `libc6:i386`
-        - Run `sudo apt install libgl1-mesa-dri:i386 libgl1-mesa-glx:i386 libc6:i386`
-        - `sudo apt-get install firmware-linux-nonfree`
-        - Reboot
+            - For my specific case, I had to install these packages via apt:
+                    `libgl1-mesa-dri:i386`
+                    `libgl1-mesa-glx:i386`
+                    `libc6:i386`
+            - Run `sudo apt install libgl1-mesa-dri:i386 libgl1-mesa-glx:i386 libc6:i386`
+            - `sudo apt-get install firmware-linux-nonfree`
+            - Reboot
+
+            **STILL NOT FIXED >:c**
 
 1. Install VLC (`sudo apt install vlc`) (flatpak version cannot install because a newer version of flatpak is required)
 
