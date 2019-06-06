@@ -151,7 +151,7 @@
 
 1. Install redshift-gtk (`sudo apt install redshift-gtk`) (ensure location services are enabled under gnome's privacy settings) (when running, make sure you check "autostart" when right-clicking the redshift-gtk icon in the gnome tray)
 
-1. Install discord via Flatpak (`flatpak install flathub com.discordapp.Discord`) (flatpak is offical from discord, snap isn't)
+1. Install discord via Snap (`sudo snap install discord`) (flatpak is offical from discord, snap isn't) (flatpak version crashes a lot however)
 
 1. Uninstall Spotify via Snap
 
