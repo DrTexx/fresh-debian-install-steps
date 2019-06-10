@@ -178,8 +178,7 @@ a
             - Reboot
             - Install OpenGL libraries recommended by Debian wiki
                 - `sudo apt install libgl1-nvidia-glx:i386`
-
-            **STILL NOT FIXED >:c**
+            - UI now opens without crashing!!! :D
 
 1. Install VLC (`sudo apt install vlc`) (flatpak version cannot install because a newer version of flatpak is required)
 
