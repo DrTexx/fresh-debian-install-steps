@@ -176,6 +176,8 @@ a
             - Run `sudo apt install libgl1-mesa-dri:i386 libgl1-mesa-glx:i386 libc6:i386`
             - `sudo apt-get install firmware-linux-nonfree`
             - Reboot
+            - Install OpenGL libraries recommended by Debian wiki
+                - `sudo apt install libgl1-nvidia-glx:i386`
 
             **STILL NOT FIXED >:c**
 
