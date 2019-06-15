@@ -233,4 +233,6 @@ a
 
 1. Installed xboxdrv (`sudo apt install xboxdrv`)
 
+1. Uninstalled xboxdrv
+
 TODO: install fish terminal
