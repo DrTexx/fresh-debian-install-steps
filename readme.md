@@ -231,4 +231,6 @@ a
 
 1. Change grub splash to glass city background in dropbox
 
+1. Installed xboxdrv (`sudo apt install xboxdrv`)
+
 TODO: install fish terminal
