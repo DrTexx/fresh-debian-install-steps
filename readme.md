@@ -217,4 +217,12 @@ a
 
 1. Download OCS-Store via AppImage and put in `~/Applications` ([Download](https://www.opendesktop.org/p/1175480/) | [Source](https://www.opencode.net/akiraohgaki/ocs-store))
 
+1. Download and install Vimix grub theme
+
+    1. Download [Vimix](https://www.gnome-look.org/p/1009236/) ([Source](https://github.com/vinceliuice/grub2-themes)  + other grub themes)
+
+    1. Move Vimix to a folder with other grub themes
+
+    1. Navigate inside grub-theme-vimix in a terminal, execute `sudo ./install-vimix.sh`
+
 TODO: install fish terminal
