@@ -229,4 +229,6 @@ a
 
 1. Uninstall Vimix grub theme
 
+1. Change grub splash to glass city background in dropbox
+
 TODO: install fish terminal
