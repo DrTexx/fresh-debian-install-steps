@@ -225,4 +225,8 @@ a
 
     1. Navigate inside grub-theme-vimix in a terminal, execute `sudo ./install-vimix.sh`
 
+    1. Hate how slow it was
+
+1. Uninstall Vimix grub theme
+
 TODO: install fish terminal
