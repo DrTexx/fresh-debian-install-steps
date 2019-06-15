@@ -215,6 +215,6 @@ a
 
 1. Install MAME via Snap (`sudo snap install mame`)
 
-1. Install OCS-Store via AppImage ([Download](https://www.opendesktop.org/p/1175480/)) ([Source](https://www.opencode.net/akiraohgaki/ocs-store))
+1. Download OCS-Store via AppImage and put in `~/Applications` ([Download](https://www.opendesktop.org/p/1175480/) | [Source](https://www.opencode.net/akiraohgaki/ocs-store))
 
 TODO: install fish terminal
