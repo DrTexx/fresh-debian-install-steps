@@ -211,5 +211,7 @@ a
 
 1. Install PCSX2 via Flatpak (`flatpak install flathub net.pcsx2.PCSX2`)
 1. Install QBitTorrent via Flatpak (`flatpak install flathub org.qbittorrent.qBittorrent`)
+1. Install MAME via Snap (`sudo snap install mame`)
+
 
 TODO: install fish terminal
