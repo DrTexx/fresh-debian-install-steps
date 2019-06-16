@@ -241,4 +241,6 @@ a
 
 1. Install Volux requirements (`sudo apt-get install python3-tk python3-xlib python3-dbus libasound2-dev`)
 
+1. Install flatpak-builder (`sudo apt install flatpak-builder`)
+
 TODO: install fish terminal
