@@ -269,4 +269,18 @@ a
 
 1. Uninstall freetube via Flatpak
 
+1. Install VirtualBox
+
+    1. Navigate to `/etc/apt/sources.list.d` and create the file `virtualbox.list`.
+
+    1. Inside `virtualbox.list`, add this line: `deb https://download.virtualbox.org/virtualbox/debian stretch contrib`
+
+    1. Install apt-transport-https (`sudo apt install apt-transport-https`)
+
+    1. Download public-key file named _oracle_vbox_2016.asc_ from [here](https://www.virtualbox.org/download/oracle_vbox_2016.asc) ([original page](https://www.virtualbox.org/wiki/Linux_Downloads))
+
+    1. Navigate to the directory of _oracle_vbox_2016.asc_ and run this: `sudo apt-key add oracle_vbox_2016.asc`
+
+    1. Install via apt with `sudo apt-get install virtualbox-6.0`
+
 TODO: install fish terminal
