@@ -235,4 +235,6 @@ a
 
 1. Uninstalled xboxdrv
 
+1. Install python3-venv (`sudo apt install python3-venv`)
+
 TODO: install fish terminal
