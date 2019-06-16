@@ -237,4 +237,6 @@ a
 
 1. Install python3-venv (`sudo apt install python3-venv`)
 
+1. Install python3-dev to fix building wheels (`sudo apt-get install python3-dev`)
+
 TODO: install fish terminal
