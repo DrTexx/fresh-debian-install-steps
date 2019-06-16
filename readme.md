@@ -249,4 +249,22 @@ a
 
     1. Install freedesktop SDK for flatpak (`flatpak install flathub org.freedesktop.Sdk//18.08`)
 
+1. Greatly increase the storage space available in `/` and in `/home` to 25GB and 50GB respectively.
+
+1. Add stretch-backports to sources
+
+    1. Navigate to `/etc/apt/sources.list.d`
+
+    1. Create a new file called `stretch-backports.list`
+
+    1. Put the follow in the file: `deb http://deb.debian.org/debian stretch-backports main`
+
+1. Update flatpak to stretch-backports version (`sudo apt -t stretch-backports install flatpak`)
+
+1. Install kdenlive via Flatpak (`flatpak install flathub org.kde.kdenlive`)
+
+1. Install freetube via Flatpak (`flatpak install flathub io.freetubeapp.FreeTube`)
+
+1. Install LBRY via Flatpak (`flatpak install flathub io.lbry.lbry-app`)
+
 TODO: install fish terminal
