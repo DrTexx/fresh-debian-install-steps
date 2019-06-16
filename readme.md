@@ -239,4 +239,6 @@ a
 
 1. Install python3-dev to fix building wheels (`sudo apt-get install python3-dev`)
 
+1. Install Volux requirements (`sudo apt-get install python3-tk python3-xlib python3-dbus libasound2-dev`)
+
 TODO: install fish terminal
