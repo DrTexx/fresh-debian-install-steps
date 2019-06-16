@@ -241,6 +241,12 @@ a
 
 1. Install Volux requirements (`sudo apt-get install python3-tk python3-xlib python3-dbus libasound2-dev`)
 
-1. Install flatpak-builder (`sudo apt install flatpak-builder`)
+1. Install/configure requirements for building flatpak packages
+
+    1. Install flatpak-builder (`sudo apt install flatpak-builder`)
+
+    1. Install gnome runtime/platform for flatpak (`flatpak install flathub org.gnome.Platform//3.32`)
+
+    1. Install freedesktop SDK for flatpak (`flatpak install flathub org.freedesktop.Sdk//18.08`)
 
 TODO: install fish terminal
