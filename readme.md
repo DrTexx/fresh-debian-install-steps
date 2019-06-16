@@ -267,4 +267,6 @@ a
 
 1. Install LBRY via Flatpak (`flatpak install flathub io.lbry.lbry-app`)
 
+1. Uninstall freetube via Flatpak
+
 TODO: install fish terminal
