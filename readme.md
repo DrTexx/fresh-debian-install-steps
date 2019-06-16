@@ -283,4 +283,6 @@ a
 
     1. Install via apt with `sudo apt-get install virtualbox-6.0`
 
+    1. Install OBS via Flatpak (`flatpak install flathub com.obsproject.Studio`)
+
 TODO: install fish terminal
