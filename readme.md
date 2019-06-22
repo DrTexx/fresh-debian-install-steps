@@ -287,4 +287,8 @@ a
 
 1. Install WINE (`sudo apt install wine`)
 
+1. Allow user "Denver" to access /dev/ttyUSB (`sudo adduser denver dialout`)
+
+    1. Reboot computer
+
 TODO: install fish terminal
