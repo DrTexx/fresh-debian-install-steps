@@ -285,4 +285,6 @@ a
 
     1. Install OBS via Flatpak (`flatpak install flathub com.obsproject.Studio`)
 
+1. Install WINE (`sudo apt install wine`)
+
 TODO: install fish terminal
