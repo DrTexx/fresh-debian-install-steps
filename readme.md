@@ -287,8 +287,12 @@ a
 
 1. Install WINE (`sudo apt install wine`)
 
-1. Allow user "Denver" to access /dev/ttyUSB (`sudo adduser denver dialout`)
+1. Allow user "denver" to access /dev/ttyUSB (`sudo adduser denver dialout`)
 
     1. Reboot computer
+
+1. Add user "denver" to group vboxusers (`sudo adduser denver vboxusers`)
+
+
 
 TODO: install fish terminal
