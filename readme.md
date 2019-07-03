@@ -293,6 +293,7 @@ a
 
 1. Add user "denver" to group vboxusers (`sudo adduser denver vboxusers`)
 
+1. Install nautilus-dropbox (`sudo apt install nautilus-dropbox`)
 
 
 TODO: install fish terminal
