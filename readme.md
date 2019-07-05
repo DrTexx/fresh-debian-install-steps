@@ -297,5 +297,6 @@ a
 
 1. Install xclip (`sudo apt install xclip`) (for storing github SSH stuff)
 
+1. Change fresh-debian-install-steps repo to use SSH instead of HTTPS
 
 TODO: install fish terminal
