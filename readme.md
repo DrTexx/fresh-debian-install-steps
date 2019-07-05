@@ -339,8 +339,19 @@ a
 
         3. In the key field, paste the key you just copied, then click "add GPG key"
 
-        4. Confirm with your github password and you're done! (finally!)
+        4. Confirm with your github password and you're done! (finally? not really)
 
+    17. Tell git about your new GPG signing key
 
+        1. Copy your GPG key id like before
+
+        2. Run this to let git know about it `git config --global user.signingkey <GPG_key_id>`
+
+        3. _"To add your GPG key to your bash profile, paste the text below:"_
+
+            - `$ test -r ~/.bash_profile && echo 'export GPG_TTY=$(tty)' >> ~/.bash_profile`
+            - `$ echo 'export GPG_TTY=$(tty)' >> ~/.profile`
+
+    18. Done!
 
 TODO: install fish terminal
