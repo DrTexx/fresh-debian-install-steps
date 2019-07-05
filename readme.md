@@ -299,4 +299,48 @@ a
 
 1. Change fresh-debian-install-steps repo to use SSH instead of HTTPS
 
+1. Set up GPG keys for Github (following information outlined [here](https://help.github.com/en/articles/managing-commit-signature-verification))
+
+    1. Check for existing keys (`gpg --list-secret-keys --keyid-format LONG`)
+
+    2. None? Create one with `gpg --full-generate-key`
+
+    3. When prompted select the default RSA and RSA
+
+    4. Select a keysize of 4096
+
+    5. When prompted for duration, press enter to specify that the key does not expire
+
+    6. Verify your selections are accurate
+
+    7. Make the user ID github username (not essential, just makes sense)
+
+    8. Make the email the no-reply github email address (find this in email settings)
+
+    9. Make the comment specify the os/distro and the machine being used
+
+    10. Enter a passphrase and repeat (take note of it)
+
+    11. Wait 5000 years for the GPG key to generate while wiggling your mouse like a maniac
+
+    12. List your keys to make sure it's all working `gpg --list-secret-keys --keyid-format LONG`
+
+    13. <img src="docs/gpg_key_id_example.png"/>
+
+    14. Run `gpg --armor --export <GPG_key_id>` and copy the output
+
+    15. _"Copy your GPG key, beginning with -----BEGIN PGP PUBLIC KEY BLOCK----- and ending with -----END PGP PUBLIC KEY BLOCK-----"_
+
+    16. Add it to your github account
+
+        1. Go to settings > SSH and GPG keys
+
+        2. Click add new GPG key
+
+        3. In the key field, paste the key you just copied, then click "add GPG key"
+
+        4. Confirm with your github password and you're done! (finally!)
+
+
+
 TODO: install fish terminal
