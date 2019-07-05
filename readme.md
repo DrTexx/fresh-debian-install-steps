@@ -358,4 +358,6 @@ a
 
     20. A third time but with CLI instead of Atom?
 
+    21. Follow [this guide](https://help.github.com/en/articles/signing-commits) to make commit signing automatic (in essence though, `git config --global commit.gpgsign true` to sign all local commits across all projects on the machine)
+
 TODO: install fish terminal
