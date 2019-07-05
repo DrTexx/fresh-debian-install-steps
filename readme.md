@@ -364,4 +364,6 @@ a
 
 1. Install VS Code via Snap (`sudo snap install code --classic`)
 
+1. Install KiCad via Flatpak (`flatpak install flathub org.kicad_pcb.KiCad`)
+
 TODO: install fish terminal
