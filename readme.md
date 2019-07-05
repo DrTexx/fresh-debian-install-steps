@@ -360,4 +360,6 @@ a
 
     21. Follow [this guide](https://help.github.com/en/articles/signing-commits) to make commit signing automatic (in essence though, `git config --global commit.gpgsign true` to sign all local commits across all projects on the machine)
 
+    22. IT FINALLY WORKS! THANK THE LORDS! <img src="docs/gpg_key_victory.png"/>
+
 TODO: install fish terminal
