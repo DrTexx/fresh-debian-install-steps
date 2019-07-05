@@ -356,4 +356,6 @@ a
 
     19. Nevermind relaunch Atom and try again?
 
+    20. A third time but with CLI instead of Atom?
+
 TODO: install fish terminal
