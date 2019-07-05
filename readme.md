@@ -362,4 +362,6 @@ a
 
     22. IT FINALLY WORKS! THANK THE LORDS! <img src="docs/gpg_key_victory.png"/>
 
+1. Install VS Code via Snap (`sudo snap install code --classic`)
+
 TODO: install fish terminal
