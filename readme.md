@@ -295,5 +295,7 @@ a
 
 1. Install nautilus-dropbox (`sudo apt install nautilus-dropbox`)
 
+1. Install xclip (`sudo apt install xclip`) (for storing github SSH stuff)
+
 
 TODO: install fish terminal
