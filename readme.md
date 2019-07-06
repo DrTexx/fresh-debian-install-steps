@@ -366,6 +366,6 @@ a
 
 1. Install KiCad via Flatpak (`flatpak install flathub org.kicad_pcb.KiCad`)
 
-1. Install cabextract so winetricks doesn't throw a fit (`sudo apt install cabextract`)
+1. Install cabextract so winetricks doesn't throw a fit (`sudo apt install cabextract`) ***STILL NECESSARY? PROBABLY NOT.***
 
 TODO: install fish terminal
